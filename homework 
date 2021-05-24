@@ -1,0 +1,120 @@
+Base code 
+
+SELECT * FROM Customers;
+
+----------------------------
+
+
+homework Ten examples
+
+---------------
+
+1- Find all table data
+
+SELECT * FROM Products
+
+------
+
+2- Query on a field
+
+SELECT 	ProductName FROM Products
+
+-----
+
+
+3- Query on two fields
+
+SELECT ProductName , SupplierID FROM Products
+
+
+-----
+
+
+4- Put a condition for the field
+
+SELECT * 
+FROM Products
+WHERE price=  9 ; 
+
+
+----------
+
+
+5- Fields arranged according to the smallest
+
+
+SELECT * 
+FROM Products
+ORDER BY price ;
+
+
+--------
+
+
+6- Inquire about average prices
+
+SELECT   AVG(Price)
+FROM Products;
+
+------
+
+
+7- The order of the names is the opposite of the alphabetical letters
+
+
+SELECT * 
+FROM Products
+ORDER BY ProductName DESC;
+
+
+
+---------
+
+
+8-  Arrange the names alphabetically
+
+SELECT * 
+FROM Products
+ORDER BY ProductName ;
+
+
+
+-----
+
+9 - Query for the largest field
+
+SELECT  * , MAX(Price)
+FROM Products;
+
+
+
+-----
+
+10 - Query for the smallest field
+
+
+SELECT  * , MIN(Price)
+FROM Products;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
